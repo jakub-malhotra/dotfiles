@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Created by: Mr Coxall
-# Created on: Sept 2020
+# Created by: Jakub Malhotra
+# Created on: Oct 2024
 # AWS Debian Linux dotfiles and setup script
 
 sudo apt update
@@ -12,6 +12,8 @@ sudo apt install git -y
 sudo apt install gh -y
 sudo apt install stow -y
 sudo apt install tree -y
+# for nvim TS LSP
+sudo apt install npm -y
 
 # install NeoVim from source
 mkdir temp
